@@ -6,6 +6,7 @@ async function getUser() {
   console.log(user.name);
   console.log(user.email);
   
+  
 }
 
 getUser();

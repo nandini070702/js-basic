@@ -31,8 +31,8 @@ console.log("joined array:", joinNums);  // output 1-2-3-4-5-6
 
 // push and pop
 
-const pushNums = numbers.push(7,8); 
-console.log("pushed array:", pushNums);   //output 1 2 3 4 5 6 7 8
+const pushNums = numbers.push(7); 
+console.log("pushed array:", pushNums);   //output 1 2 3 4 5 6 7 
 
 const popNums = numbers.pop(2); 
 console.log("popped array:", popNums); //output 1 3 4 5 6 7 8
