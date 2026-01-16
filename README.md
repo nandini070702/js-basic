@@ -14,7 +14,7 @@ JavaScript
 Postman
 
 🔗 Base URL
-http://localhost:3000/user
+http://localhost:3000
 
 The main purpose of this project is to practice and understand backend fundamentals, including:
 
