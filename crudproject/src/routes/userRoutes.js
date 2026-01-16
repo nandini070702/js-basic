@@ -1,6 +1,22 @@
 const express = require("express");
 const router = express.Router();
 
+// import controllers
+const {
+  getAllUsers,
+  getUserById,
+  createUser,
+  updateUser,
+  deleteUser
+} = require("../controllers/userControllers");
+
+// routes
+router.get("/", getAllUsers);
+router.get("/:id", getUserById);
+router.post("/", createUser);
+router.put("/:id", updateUser);
+router.delete("/:id", deleteUser);
+
 let users = [
   { id: 1, name: "Nandini", email: "nandini@gmail.com" }
 ];
